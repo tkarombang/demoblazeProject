@@ -4,10 +4,10 @@ test.beforeEach(async ({page}) => {
     await page.goto('https://demoblaze.com/')
 })
 
+//LOGIN PAGE
 test('As a user, I want to be able to login on the application demoblaze', async ({page}) => {
-    console.log('Login gagal, mencoba menangani alert...')
     page.on('dialog', async (dialog) => {
-        // console.log('PESAN DIALOG: ' + dialog.message())
+        console.log('MENCOBA MENANGANI ALERT...  ')
         alertMessage = dialog.message()
         await dialog.accept();
     })
@@ -28,5 +28,9 @@ test('As a user, I want to be able to login on the application demoblaze', async
             console.log('PESAN POPUP: ' + alertMessage)
         }else{
             console.log('BERHASIL LOGIN')
+            await page.waitForSelector('#nameofuser')
+            const textUser = await page.locator('#nameofuser').textContent();
+            console.log(textUser);
         }
 })
+
