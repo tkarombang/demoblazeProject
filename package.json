@@ -10,8 +10,5 @@
   "devDependencies": {
     "@playwright/test": "^1.46.1",
     "@types/node": "^22.5.3"
-  },
-  "dependencies": {
-    "@cucumber/cucumber": "^11.0.0"
   }
 }
