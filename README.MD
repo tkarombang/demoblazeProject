@@ -1,4 +1,4 @@
-# DEMOBLAZE PROJECT Take Home Test
+# DEMOBLAZE PROJECT JS-PLAYWRIGHT-CI
 
 DemoBlaze is an e-commerce website that is currently in very early development stages. The MVP for this website was creating a login feature and a homepage showcasing a list of items. But now it has been developed with the following features:
 
