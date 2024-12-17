@@ -1,0 +1,18 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="14.115251">
+<testsuite name="cart.spec.js" timestamp="2024-09-30T01:48:20.763Z" hostname="chromium" tests="2" failures="0" skipped="0" time="18.767" errors="0">
+<testcase name="PENGGUNA DAPAT MENAMBAHKAN PRODUK KEDALAM KERANJANG" classname="cart.spec.js" time="10.651">
+<system-out>
+<![CDATA[MENCOBA MENANGANI POPUP MESSAGE....!
+Product added
+PRICE: 820
+]]>
+</system-out>
+</testcase>
+<testcase name="PENGGUNA DAPAT MENGHAPUS PRODUK DI CART" classname="cart.spec.js" time="8.116">
+<system-out>
+<![CDATA[MENCOBA MENANGANI POPUP MESSAGE....!
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

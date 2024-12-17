@@ -5,7 +5,7 @@ test.beforeEach(async ({page})=> {
 })
 
 test('PENGGUNA BERHASIL MELAKUKAN PEMBELIAN SATU ITEM', async ({page}) => {
-    await page.getByRole('link', { name: "Samsung galaxy s6"}).click()
+    await page.getByRole('link', { name: "Nokia lumia 1520"}).click()
     await page.waitForTimeout(1000)
     await page.getByRole('link', { name: "Add to cart"}).click()
     await page.locator('//*[@id="navbarExample"]/ul/li[4]/a').click()
